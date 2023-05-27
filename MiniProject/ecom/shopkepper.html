@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/style1.css">
+  
+</head>
+<style>
+    body
+    {
+        background:none;
+    }
+</style>
+<body >
+<div class="container1" >
+        <div class="loginpage" id="LoginForm" >
+            <h2>Add Product</h2>
+            <form action="AddProduct.php" method="post">
+                
+                <div class="form-group ">
+                    <label>Product Name</label>
+                    <input type="text" name="title" placeholder="Product_Name">
+                </div>
+                <div class="form-group "> 
+                    <label> Product Image/Video</label>
+                    <input type="text" name="media">
+                    <!-- <form action="upload.php" method="post" enctype="multipart/form-data">
+
+                        <input type="file" name="my_image" >
+                         <input type="submit" name="upload" value="Upload">
+                         </form> -->
+
+                </div>
+                <div class="form-group" style="display:block;">
+                    <label>Product type</label>
+                    <input type="radio" value="1" name="ProductType" class="shops" checked >  Machinary 
+                    <input type="radio" value="0" name="ProductType" class="shops" > Medicine
+                </div>
+                <div class="form-group">
+                    <label>Price</label>
+                    <input type="number" name="price" id="price" class="values">
+                </div>
+                <div class="form-group" style="display:block;">
+                    <label>Discount</label>
+                    <input type="number" name="discount"  style="width:4rem;">
+                     <label>quantity</label>
+                    <input type="number" name="quantity" style="width:4rem;">
+                </div>
+                <button type="submit" class="btn">Add</button>
+            </form>
+
+            </div>
+            <img src="../images/2845443.jpg" alt="" id="sideBackground" style="width:45vw; height:70vh;">
+            </div>
+</body>
+</html>

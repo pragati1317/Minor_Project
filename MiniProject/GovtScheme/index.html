@@ -1,0 +1,70 @@
+<?php 
+require('connection.php');
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Government Scheme</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <script src="dropdown.js"></script>
+    <div class="box">
+       <a href="https://www.nibsm.org.in/">Central Govt. Scheme</a>
+    </div>
+    <!-- <div class="dropdown">
+        <button class="dropbtn">State Government Scheme</button>
+        <div class="dropdown-content">
+          <a href="#">Madhya Pradesh</a>
+          <a href="#">Uttar Pradesh</a>
+          <a href="#">Rajsthan</a>
+        </div>
+      </div> -->
+
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">State Government Schemes</button>
+        <div id="myDropdown" class="dropdown-content">
+          <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+          <a href="https://apagrisnet.gov.in/seed.php">Andhra Pradesh</a>  
+          <a href="https://agricoop.nic.in/en/agriculturecontingency/arunachal-pradesh">Arunachal Pradesh</a>
+          <a href="https://diragri.assam.gov.in/schemes/cm-special-scheme">Assam</a>
+          <a href="https://dbtagriculture.bihar.gov.in/krishimis/WebPortal/Scheme.aspx">Bihar</a>
+          <a href="https://farmer.gov.in/imagedefault/handbooks/GOA.pdf">Goa</a>
+          <a href="http://agriportal.cg.nic.in/PortHi/Default.aspx">Chhattisgarh</a>
+          <a href="https://agri.gujarat.gov.in/index-guj.htm?">Gujrat</a>
+          <a href="http://agriharyana.org/agrischemes">Haryana</a>
+          <a href="https://agricoop.nic.in/en/agriculturecontingency/himachal-pradesh">Himachal Pradesh</a>
+          <a href="https://vikaspedia.in/schemesall/state-specific-schemes/welfare-schemes-of-jharkhand">Jharkhand</a>
+          <a href="https://raitamitra.karnataka.gov.in/english">Karnataka</a>
+          <a href="https://keralaagriculture.gov.in/en/schemes/">Kerala</a>
+          <a href="https://mpkrishi-mp-gov-in.translate.goog/hindisite_New/indexhindi_New.aspx?_x_tr_sl=hi&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc&_x_tr_sch=http">Madhya Pradesh</a>
+          <a href="https://krishi.maharashtra.gov.in/">Maharashtra</a>
+          <a href="https://agricoop.nic.in/en/agriculturecontingency/manipur">Manipur</a>
+          <a href="http://megagriculture.gov.in/PUBLIC/schemes_ShowSchemesA.aspx?schid=80">Meghalay</a>
+          <a href="https://agriculturemizoram.nic.in/">Mizoram</a>
+          <a href="https://agriculture.nagaland.gov.in/activities-of-the-department/">Nagaland</a>
+          <a href="https://agri.odisha.gov.in/schemes-agriculture/agriculture">Odisha</a>
+          <a href="https://agri.punjab.gov.in/?q=schemes">Panjab</a>
+          <a href="https://agricoop.nic.in/en/agriculturecontingency/rajasthan">Rajasthan</a>
+          <a href="http://www.sikkimagrisnet.org/General/Eng/Schemes.aspx?ID=14">Sikkim</a>
+          <a href="https://agritech.tnau.ac.in/expert_system/paddy/Schemes.html#sls">Tamil Nadu</a>
+          <a href="https://agritech.tnau.ac.in/expert_system/paddy/Schemes.html#sls">Telangana</a>
+          <a href="#blog">Tripura</a>
+          <a href="https://upagripardarshi.gov.in/StaticPages/krshirakshayojana-hi.aspx">Uttar Pradesh</a>
+          <a href="https://agricoop.nic.in/en/agriculturecontingency/uttarakhand">Uttarakhand</a>
+          <a href="https://agricoop.nic.in/en/agriculturecontingency/west-bengal">West Bengal</a>
+          
+          
+        </div>
+      </div>
+
+</body>
+
+</html>

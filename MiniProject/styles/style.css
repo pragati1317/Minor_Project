@@ -1,0 +1,238 @@
+*
+{
+    top:0;
+    left:0;
+    padding :0;
+    margin:0;
+    /* font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: 'Overlock', cursive;
+    
+}
+
+.page1 
+{   height:100vh;
+    background: linear-gradient(30deg, rgb(14, 127, 14), rgb(200, 211, 21), rgb(60, 216, 65) , rgb(235, 211, 21), rgb(15, 211, 21));
+    margin:auto;
+}
+header{
+    background: linear-gradient(30deg, rgb(14, 127, 14), rgb(200, 211, 21), rgb(60, 216, 65) , rgb(235, 211, 21), rgb(15, 211, 21));  
+    height:4.9rem;
+}
+.navbar
+{
+    
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    font-size:1.1rem;
+    position:sticky;
+    z-index:100;
+}
+
+img 
+ {
+            width:300px;
+             height:300px;
+         }
+
+         a img {
+            width: 40px;
+            height: 40px;
+        }
+         
+.profile{
+    width:2.2rem;
+    height:2.2rem;
+}
+
+.rightnav ul, .leftnav ul
+{
+    display:flex;
+     margin-right: 2.2rem;
+     margin-left:2.2rem;
+}
+.rightnav ul li , .leftnav ul li{
+    list-style:none;
+    padding:1.1rem ;
+    color:white;
+    text-decoration: underline lightgreen;
+}
+.page1container
+{
+    display:flex;
+    width:90vw;
+    justify-content: space-between;
+    margin:auto;
+
+}
+
+li a
+{
+    color:white;
+}
+a{
+    color:black;
+}
+.mainContain
+{
+    background-image: url("./images/2845443.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:90vh;
+    width: 64vw;
+    border-radius:1.4rem;
+    opacity: 50%;
+}
+
+.otherServices
+{
+    display:flex;
+    flex-direction:column;
+}
+.services
+{  display:flex;
+    flex-direction:column;
+    width:18.56rem;
+    height:10.18rem;
+    background-color:white;
+    border-radius:0.5rem;
+    margin:3.5625rem;
+    margin-top:0.2rem;
+    font-size:2.6rem;
+    text-align: center;
+}
+.services span
+{
+    margin:auto;
+}
+.btn
+{  
+     border:0;
+    border-bottom:0.1rem black;
+    background-color:white;
+    margin:auto;
+    margin-top:0;
+    text-decoration: underline;
+    width:max-content;
+}
+
+/* login page  */
+
+.form-group
+{
+    
+    display:flex;
+    flex-direction:column;
+   
+}
+
+.form 
+{
+    background-color:white;
+     width:40%;
+      height:max-content;
+       float:right;
+       border-radius:2rem;
+}
+table, th, td {
+    width:max-content;
+    border: 1px solid black;
+ }
+ 
+
+ 
+.box{
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+   
+    max-width: 551px;
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+width: 200px;
+height: 100px;
+border: 3px solid white;
+background-color: #04AA6D;
+margin: auto;
+padding: 10px;
+
+
+}
+
+
+
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 40px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+
+
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+  }
+  
+  /* The search field */
+  #myInput {
+    box-sizing: border-box;
+    background-image: url('searchicon.png');
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* The search field when it gets focus/clicked on */
+  #myInput:focus {outline: 3px solid #ddd;}
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    border: 1px solid #ddd;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+  .logo
+  {
+    width:5.1rem;
+    height:3.1rem;
+    border-radius:1rem;
+  }

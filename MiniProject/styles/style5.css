@@ -1,0 +1,110 @@
+.page2
+{
+    height:80vh;
+    background-color:white;
+}
+.pageheading
+{
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 51px;
+    display: flex;
+     justify-content: center;
+    color: #2ae646b1;
+     margin:4rem;
+     margin-bottom:3rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+.pageheading h1 
+{    font-size: 4.1rem;
+    align-items: center;
+    text-align: center;
+}
+.Search
+{
+    padding :0.1rem;
+    font-size:1.2rem;
+    border-radius:1.2rem;
+    width:37.75rem;
+    margin:auto;
+  
+}
+
+#search
+{
+    width:32.75rem;
+    margin:3rem auto;
+    margin-bottom:0;
+    border-radius:0.6rem;
+    padding:0.2rem;
+}
+.choice
+{
+    width:32.75rem;
+    display:flex;
+    justify-content:space-evenly;
+   
+}
+.options
+{
+    width:150px;
+    height:150px;
+    border-radius:0.6rem;
+      margin:2rem;
+      background: linear-gradient(30deg, rgb(14, 127, 14), rgb(200, 211, 21), rgb(60, 216, 65) );
+      background-color:bisque;
+}
+.content
+{
+    width:80%;
+    height:80%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:2rem auto;
+}
+.jobs
+{
+    width: 450px;
+    height: 137px;
+    left: 134px;
+top: 329px;
+background-color: #FFFBFB;
+border: 1px solid #000000;
+border-radius: 8px;
+margin:1rem;
+}
+
+.jobs h4
+{
+
+    width: 450px;
+    height: 29px;
+    left: 240px;
+    top: 366px;
+    padding-top:0.4rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    margin:0.4rem;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+
+}
+.jobs h6 
+{
+    padding:0 5rem;
+    align-items: center;
+    text-align: center;
+    color:#4f4d4d;
+}
+.jobs a{
+    padding:0.6rem;
+    padding-bottom:0;
+   float :right;
+}
